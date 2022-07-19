@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --button-color: #ba9279;
+    --background-color: #f0e1d5;
+}
+
+body {
+    font-family: "Times New Roman", Serif;
+    background-color: var(--background-color);
+}
+
+.button-color {
+    background-color: var(--button-color);
+    min-height: 3rem !important;
+}
